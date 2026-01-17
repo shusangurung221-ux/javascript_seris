@@ -1,0 +1,11 @@
+let a=parseInt(prompt("enter a:"));
+let b=parseInt(prompt("enter b:"));
+console.log("before swiping");
+console.log("a=",a);
+console.log("b=",b);
+let c=a;
+a=b;
+b=c;
+console.log("after swiping");
+console.log("a=",a);
+console.log("b=",b);
